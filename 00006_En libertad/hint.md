@@ -1,0 +1,1 @@
+¡No te olvides de que existe una función `puedeMover(direccion)`! :wink:

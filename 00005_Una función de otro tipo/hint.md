@@ -1,0 +1,1 @@
+Otra forma de pensarlo: el color rojo es dominante cuando el **número de bolitas rojas** es mayor que **todas excepto las rojas**.

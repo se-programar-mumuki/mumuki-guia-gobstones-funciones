@@ -1,0 +1,22 @@
+subject: hayBolitasAl
+examples:
+ - arguments:
+   - Sur
+   - Verde
+   initial_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 0 Verde 1
+     cell 0 1 Rojo 1
+     head 0 0
+   error: out_of_board
+ - arguments:
+   - Oeste
+   - Negro
+   initial_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 0 Verde 1
+     cell 0 1 Rojo 1
+     head 0 0
+   error: out_of_board

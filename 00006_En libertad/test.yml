@@ -1,0 +1,14 @@
+subject: esLibreCostados
+
+examples:
+ - initial_board: |
+     GBB/1.0
+     size 3 2
+     head 0 0
+   return: 'False'
+ 
+ - initial_board: |
+     GBB/1.0
+     size 3 2
+     head 1 0
+   return: 'True'

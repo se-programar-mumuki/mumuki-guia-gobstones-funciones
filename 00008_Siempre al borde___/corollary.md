@@ -1,0 +1,3 @@
+Como en la aritmética, en la lógica también existe el concepto de **precedencia** y ciertas operaciones se resuelven antes que otras: primero la negación (`not`), después la conjunción (`&&`) y por último la disyunción (`||`).
+
+Por esta razón, la expresión `not puedeMover(Norte) || not puedeMover(Este) || not puedeMover(Sur) || not puedeMover(Oeste)` se puede escribir sin tener que poner paréntesis en el medio.

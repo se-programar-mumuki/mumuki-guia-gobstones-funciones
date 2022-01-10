@@ -1,0 +1,28 @@
+check_head_position: true
+
+subject: MoverSegunBolitas
+
+examples:
+ - title: Si hay más de 10 bolitas, se mueve al Este
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Azul 3 Negro 2 Rojo 4 Verde 3
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Azul 3 Negro 2 Rojo 4 Verde 3
+     head 1 0
+ 
+ - title: Si hay menos de 10 bolitas, se mueve al Norte
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Azul 3 Negro 2
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Azul 3 Negro 2
+     head 0 1

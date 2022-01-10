@@ -1,0 +1,1 @@
+Tanto `&&` como `||` pueden usarse varias veces sin la necesidad de usar paréntesis, siempre y cuando tengan expresiones booleanas a ambos lados.

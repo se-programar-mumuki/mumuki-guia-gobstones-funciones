@@ -1,0 +1,1 @@
+Acordate que el cabezal sólo puede **mirar la celda actual**. Por lo tanto, si lo que queremos es ver si **hay bolitas** al lado primero habrá que **moverse** en esa dirección.

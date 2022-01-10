@@ -1,0 +1,29 @@
+subject: hayAlgunaBolita
+
+examples:
+ - initial_board: |
+     GBB/1.0
+     size 2 2
+     head 0 0
+   return: 'False'
+   
+ - initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Rojo 1 Verde 3
+     head 0 0
+   return: 'True'
+   
+ - initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Azul 8
+     head 0 0
+   return: 'True'
+   
+ - initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Negro 4 Rojo 2
+     head 0 0
+   return: 'True'      

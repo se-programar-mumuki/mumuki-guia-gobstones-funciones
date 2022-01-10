@@ -1,0 +1,3 @@
+Costó entender qué hace sin **ejecutarlo**, ¿no?
+
+Eso es señal de que nos está faltando **dividir en subtareas**... 

@@ -1,0 +1,30 @@
+function hayBolitasAl(direccion, color) {
+  /*
+<elipsis-for-student@
+*/
+    Mover(direccion)
+    return (hayBolitas(color))
+    /*
+@elipsis-for-student>
+*/ 
+}
+
+function estoyRodeadoDe(color) {
+  /*
+<elipsis-for-student@
+*/
+    return (hayBolitasAl(Norte, color) && hayBolitasAl(Este, color) && hayBolitasAl(Sur, color) && hayBolitasAl(Oeste, color))
+    /*
+@elipsis-for-student>
+*/ 
+}
+
+function estoyEnUnBorde() {
+  /*
+<elipsis-for-student@
+*/
+    return (not puedeMover(Norte) || not puedeMover(Este) || not puedeMover(Sur) || not puedeMover(Oeste))
+    /*
+@elipsis-for-student>
+*/ 
+}

@@ -1,0 +1,1 @@
+La idea de _"mover el cabezal muchas veces"_ la resolvimos varias lecciones atrás con el procedimiento `MoverN`. Podrías usarlo, ¿no? :wink:
